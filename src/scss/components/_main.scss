@@ -1,0 +1,44 @@
+.main {
+    padding-right: 74px;
+    padding-left: 74px;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.activities,
+.philosophy,
+.places,
+.partners {
+    
+    max-width: 1692px;
+    margin: 0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    flex-direction: column;
+
+   
+}
+
+.subtitle {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    letter-spacing: 0.7em;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 27px;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    color: #2D2D2D;
+    margin-bottom: 111px;
+}

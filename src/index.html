@@ -3,12 +3,13 @@
 
 <head>
   @include('components/head.html')
-  <title>Norway</title>
+  <title>Norway TraveLx</title>
 </head>
 
 <body>
+
   <header class="header">
-    <div class="container header__container">
+    <div class="header__container">
       <a class="header__logo" href="#"><img src="/img/logo.svg" alt="">TRAVELx</a>
       <nav class="header__nav">
         <ul class="header__list">
@@ -24,139 +25,170 @@
         <span></span>
       </button>
     </div>
-    <div class="header__text">
-      <p>EXPLORE</p>
-      <h1>Norway</h1>
+    <div class="greeting-block">
+      <div class="social-links">
+        <a><img src="img/DISCIMG1.svg" alt=""></a>
+        <a><img src="img/DISCIMG2.svg" alt=""></a>
+        <a><img src="img/DISCIMG3.svg" alt=""></a>
+      </div>
+      <div class="description">
+        <p class="description__subtitle">EXPLORE</p>
+        <h1 class="description__title">Norway</h1>
+      </div>
+      <div class="social-links_hidden">
+        <img src="img/DISCIMG1.svg" alt="">
+        <img src="img/DISCIMG2.svg" alt="">
+        <img src="img/DISCIMG3.svg" alt="">
+      </div>
     </div>
-    <div class="header__mapmarker">
-      <div class="header__mapmarker__block">
-        <h2>Trondheim</h2>
-        <p>Plan a trip</p>
+
+    <div class="map-block">
+      <div class="map-block__block">
+        <h2 class="map-block__title">Trondheim</h2>
+        <p class="map-block__subtitle">Plan a trip</p>
       </div>
-      <div class="header__mapmarker__block">
-        <h2>Geirangerfjord</h2>
-        <p>Plan a trip</p>
+      <div class="map-block__block">
+        <h2 class="map-block__title">Geirangerfjord</h2>
+        <p class="map-block__subtitle">Plan a trip</p>
       </div>
-      <div class="header__mapmarker__block">
-        <h2>Lofoten</h2>
-        <p>Plan a trip</p>
+      <div class="map-block__block">
+        <h2 class="map-block__title">Lofoten</h2>
+        <p class="map-block__subtitle">Plan a trip</p>
       </div>
     </div>
   </header>
-  <!--Header CLOSE-->
+
   <main class="main">
-    <div class="main__block one">
-      <div class="main__block__text">
-        <p>HUNDREDS OF</p>
-        <h2>Activities for Everyoune</h2>
+
+    <section class="activities">
+      <!--Activities-->
+      <p class="subtitle">HUNDREDS OF</p>
+      <h2 class="title">Activities for Everyoune</h2>
+      <div class="activities__contentblock">
+        <div class="activities__contentblock_img">
+          <h3 class="activities__title">Hiking</h3>
+          <p class="activities__subtitle">230 activites</p>
+        </div>
+        <div class="activities__contentblock_img">
+          <h3 class="activities__title">Sailing</h3>
+          <p class="activities__subtitle">121 activites</p>
+        </div>
+        <div class="activities__contentblock_img">
+          <h3 class="activities__title">Skiing</h3>
+          <p class="activities__subtitle">212 activites</p>
+        </div>
+        <div class="activities__contentblock_img">
+          <h3 class="activities__title">Kayaking</h3>
+          <p class="activities__subtitle">512 activites</p>
+        </div>
       </div>
-      <div class="main__block__contentblock">
-        <div class="main__block__contentblock_img">
-          <h3>Hiking</h3>
-          <span>230 activites</span>
-        </div>
-        <div class="main__block__contentblock_img">
-          <h3>Sailing</h3>
-          <span>121 activites</span>
-        </div>
-        <div class="main__block__contentblock_img">
-          <h3>Skiing</h3>
-          <span>212 activites</span>
-        </div>
-        <div class="main__block__contentblock_img">
-          <h3>Kayaking</h3>
-          <span>512 activites</span>
-        </div>
-      </div>
-    </div>
-    <div class="main__block two">
-      <div class="main__block__text ">
-        <p>About Us</p>
-        <h2>Our Philosophy</h2>
-      </div>
-      <div class="main__gridblock">
-        <img src="/img/imgblocktwo.jpg" alt="">
-        <ul class="main__gridblock-text">
-          <li>1 Sustainable<p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl hendrerit,
+    </section>
+
+    <section class="philosophy ">
+      <!--Philosophy-->
+      <p class="subtitle">About Us</p>
+      <h2 class="title">Our Philosophy</h2>
+      <div class="philosophy__block">
+        <img src="img/imgblocktwo.jpg" alt="">
+        <ul class="philosophy__block-text">
+          <li>Sustainable<p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl
+              hendrerit,
               aliquet mi
-              sed, scelerisque tortor. Aliquam eu scelerisque quam, ac tristique dolor. Aliquam nulla risus,</p>
+              sed, scelerisque tortor. Aliquam eu scelerisque quam, ac tristique dolor. Aliquam
+              nulla risus,</p>
           </li>
-          <li>2 Fair & Share<p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl hendrerit,
+          <li>Fair & Share<p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl
+              hendrerit,
               aliquet
-              mi sed, scelerisque tortor. Aliquam eu scelerisque quam, ac tristique dolor. Aliquam nulla risus,</p>
+              mi sed, scelerisque tortor. Aliquam eu scelerisque quam, ac tristique dolor. Aliquam
+              nulla risus,</p>
           </li>
-          <li>3 Experience<p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl hendrerit,
+          <li>Experience<p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl
+              hendrerit,
               aliquet
               mi
               sed, scelerisque tortor. Aliquam eu scelerisque quam, ac tristique</p>
           </li>
         </ul>
       </div>
-    </div>
-    <div class="main__block three">
-      <div class="main__block__text">
-        <p>BEAUTIES</p>
-        <h2>Hotels and Appartements</h2>
-      </div>
-      <div class="main__flexblock">
+    </section>
+
+    <section class="places">
+      <!--Places-->
+      <p class="subtitle">BEAUTIES</p>
+      <h2 class="title">Hotels and Appartements</h2>
+      <div class="places__appartements-img-block">
         <img src="img/Appartements1.jpg" alt="">
         <img src="img/Appartements2.jpg" alt="">
         <img src="img/Appartements3.jpg" alt="">
       </div>
-      <div class="main__flexblock__price">
-        <div class="main__flexblock__price-star">
-          <h4>Reine</h4>
-          <span>$720</span>
+      <div class="places__price">
+        <div class="places__price-star">
+          <h4 class="places__title">Reine</h4>
+          <p class="places__subtitle">$720</p>
         </div>
-        <div class="main__flexblock__price-star">
-          <h4>NORWAY</h4>
-          <span>$350</span>
+        <div class="places__price-star">
+          <h4 class="places__title">NORWAY</h4>
+          <p class="places__subtitle">$350</p>
         </div>
-        <div class="main__flexblock__price-star">
-          <h4>Bergen</h4>
-          <span>$670</span>
-        </div>
-      </div>
-      <div class="main__block__filter">
-        <span>Next</span>
-        <span>Next</span>
-        <span>Next</span>
-      </div>
-    </div>
-    <div class="main__block four">
-      <div class="main__block__text four-text">
-        <p>NETWORK</p>
-        <h2>Our Partners</h2>
-        <div class="main__block__company">
-          <img src="img/imggrup.jpg" alt="">
+        <div class="places__price-star">
+          <h4 class="places__title">Bergen</h4>
+          <p class="places__subtitle">$670</p>
         </div>
       </div>
-      <div class="cometns">
+      <div class="serch__block">
+        <input type="date" id="date" name="date" />
+        <select class="serch__list">
+          <option>Norway</option>
+          <option>Bergen</option>
+          <option>Reine</option>
+        </select>
+        <select class="serch__list">
+          <option>Morocco</option>
+          <option>Loften</option>
+        </select>
+        <button class="serch__block_button">SEARCH</button>
+      </div>
+    </section>
+
+    <section class="partners">
+      <!--Partners-->
+      <p class="subtitle">NETWORK</p>
+      <h2 class="title">Our Partners</h2>
+      <div class="partners__company">
+        <img src="img/imggrup.jpg" alt="">
+      </div>
+      <div class="partners__comments">
         <img src="img/coments.svg" alt="">
       </div>
-      <!--main__block-->
+    </section>
+
   </main>
+
   <footer>
+
     <div class="footer__container">
-      <img src="/img/footerlogo.svg" alt="">
-      <span>TRAVELx</span>
-      <ul>
-        <li>Destinations</li>
-        <li>Activities</li>
-        <li>About Us</li>
-        <li>Contact</li>
-        <li>Privacy Policy</li>
+      <img src="img/footerlogo.svg" alt="">
+      <h2 class="footer__title">TRAVELx</h2>
+      <ul class="footer__list">
+        <li class="footer__list-link">Destinations</li>
+        <li class="footer__list-link">Activities</li>
+        <li class="footer__list-link">About Us</li>
+        <li class="footer__list-link">Contact</li>
+        <li class="footer__list-link">Privacy Policy</li>
       </ul>
-      <div class="infofooter">
+      <div class="footer__info">
         <p>© 2020 Bikart Design. All rights reserved</p>
-        <div>
-          <a href="#"><img src="/img/fi1.svg" alt=""></a>
-          <a href="#"><img src="/img/fi2.svg" alt=""></a>
-          <a href="#"><img src="/img/f3.svg" alt=""></a>
-          <a href="#"><img src="/img/f4.svg" alt=""></a>
-        </div>
+        <ul class="footer__social-links">
+          <li><a href="#"><img src="img/fi1.svg" alt=""></a></li>
+          <li><a href="#"><img src="img/fi2.svg" alt=""></a></li>
+          <li><a href="#"><img src="img/f3.svg" alt=""></a></li>
+          <li><a href="#"><img src="img/f4.svg" alt=""></a></li>
+        </ul>
       </div>
+    </div>
   </footer>
+
 </body>
 
 </html>

@@ -1,0 +1,86 @@
+.philosophy {
+  margin-top: 197px;
+}
+
+@media screen and (max-width: 1500px) {
+  .philosophy__block img {
+    margin-top: 70px;
+  }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .philosophy__block {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: left;
+  }
+}
+
+
+.philosophy__block {
+  display: flex;
+  max-width: 1478px;
+  margin: 0 auto;
+
+  &-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 165px;
+
+    @media screen and (max-width: 1000px) {
+      margin-left: 70px
+    }
+
+    p {
+      max-width: 441px;
+      padding: 0;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 0;
+      text-align: left;
+      color: #6D6D6D;
+      line-height: 30px;
+
+
+      @media screen and (max-width: 1300px) {
+        font-size: 14px;
+      }
+    }
+
+    li {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+
+      &:nth-child(1):before {
+        content: "01";
+        position: absolute;
+        margin-left: -70px;
+        color: rgba(155, 155, 155, 1);
+      }
+
+      &:nth-child(2):before {
+        content: "02";
+        position: absolute;
+        margin-left: -70px;
+        color: rgba(155, 155, 155, 1);
+      }
+
+      &:nth-child(3):before {
+        content: "03";
+        position: absolute;
+        margin-left: -70px;
+        color: rgba(155, 155, 155, 1);
+      }
+
+      @media screen and (max-width: 1300px) {
+        font-size: 25px;
+      }
+
+
+    }
+  }
+}

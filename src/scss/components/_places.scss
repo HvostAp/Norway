@@ -1,0 +1,129 @@
+.places {
+  margin-top: 197px;
+
+  border-radius: 10px;
+
+  &__appartements-img-block {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1593px;
+    max-height: 323px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+
+    img {
+      padding: 0 6px;
+      transition: 0.4s;
+
+
+
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.4s;
+        cursor: zoom-in;
+      }
+    }
+  }
+}
+
+
+
+.places__price {
+  max-width: 1570px;
+  max-height: 323px;
+  margin: 0 auto;
+  margin-top: 11px;
+  display: flex;
+  justify-content: space-between;
+
+
+  &-star {
+    width: 507px;
+    height: 87px;
+
+    .places__title {
+      background: url(../img/star.svg) top right no-repeat;
+      font-weight: 700;
+      font-size: 30px;
+      padding-bottom: 14px;
+
+      @media screen and (max-width: 1700px) {
+        font-size: 22px;
+      }
+
+    }
+
+    .places__subtitle {
+      font-weight: 500;
+      font-size: 20px;
+      color: #959595;
+    }
+  }
+}
+
+.serch__block {
+  margin-top: 116px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+
+
+
+  .serch__list,
+  #date {
+
+    width: 321px;
+    height: 75px;
+    padding-left: 22px;
+    display: inline-block;
+    background-color: #F5F5F5;
+    border: 3px solid #DBDBDB;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 500;
+    font-size: 18px;
+
+
+    @media screen and (max-width: 1500px) {
+      margin-top: 15px;
+    }
+
+    @media screen and (max-width: 1550px) {
+      margin-left: 15px;
+    }
+
+    &:hover {
+      background-color: #DBDBDB;
+      transition: 0.3s;
+    }
+  }
+}
+
+.serch__block_button {
+  width: 321px;
+  height: 75px;
+  padding: 27px 79px 27px 79px;
+  display: inline-block;
+  background-color: #3D3D3D;
+  border: 3px solid #DBDBDB;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 5px;
+  color: #F5F5F5;
+
+  &:hover {
+    background-color: #025f02;
+    transition: 0.3s;
+
+  }
+
+  @media screen and (max-width: 1550px) {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+}
